@@ -13,8 +13,8 @@ export interface DonationItem {
 
 export interface DonationFormData {
   title: string;
-  category: DonationItem['category'];
-  condition: DonationItem['condition'];
+  category: DonationItem['category']; // Donationitem.category;
+  condition: DonationItem['condition']; // DonationItem.condition;
   description: string;
   imageUrl?: string;
   donor: string;
